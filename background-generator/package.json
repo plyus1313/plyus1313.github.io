@@ -1,0 +1,24 @@
+{
+  "name": "backround-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "dependencies": {
+    "live-server": "^1.2.0",
+    "lodash": "^4.17.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plyus1313/backround-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plyus1313/backround-generator/issues"
+  },
+  "homepage": "https://github.com/plyus1313/backround-generator#readme"
+}
